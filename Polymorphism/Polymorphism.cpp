@@ -18,4 +18,7 @@ public:
 	void pesan() {
 		cout << "Pesan dari joko" << endl;
 	}
+	void cetak() {
+		cout << "Pesan dari lia" << endl;
+	}
 };
