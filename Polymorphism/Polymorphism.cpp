@@ -19,10 +19,13 @@ public:
 		cout << "Pesan dari joko" << endl;
 	}
 	void cetak() {
-		cout << "Pesan dari lia" << endl;
+		cout << "Tulisan joko" << endl;
 	}
 };
 
 class lia : public seseorang {
-
+public:
+	void pesan() {
+		cout << "Pesan dari lia" << endl;
+	}
 };
