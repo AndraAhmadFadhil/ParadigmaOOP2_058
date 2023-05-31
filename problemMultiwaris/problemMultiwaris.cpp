@@ -5,8 +5,14 @@ class orang {
 public:
 	int umur;
 
-	orang(int pUmur)
+	orang(int pUmur) :
+		umur(pUmur)
 	{
-
+		cout << "orang dibuat dengan umur " << umur << "\n" << endl;
 	}
+};
+
+class pekerja : public orang {
+public:
+
 };
